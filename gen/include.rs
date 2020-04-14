@@ -1,6 +1,6 @@
 use std::fmt::{self, Display};
 
-pub static HEADER: &str = include_str!("include/cxx.h");
+pub static HEADER: &str = include_str!("../include/cxx.h");
 
 pub fn get(guard: &str) -> &'static str {
     let ifndef = format!("#ifndef {}", guard);

@@ -363,12 +363,14 @@ mod cxx_string;
 mod error;
 mod exception;
 mod function;
+#[path = "../gen/mod.rs"]
 mod gen;
 mod opaque;
 mod paths;
 mod result;
 mod rust_str;
 mod rust_string;
+#[path = "../syntax/mod.rs"]
 mod syntax;
 mod unique_ptr;
 mod unwind;

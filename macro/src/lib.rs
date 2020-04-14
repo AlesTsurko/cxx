@@ -11,6 +11,7 @@ extern crate proc_macro;
 
 mod expand;
 mod namespace;
+#[path = "../../syntax/mod.rs"]
 mod syntax;
 
 use crate::namespace::Namespace;
